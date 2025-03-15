@@ -15,5 +15,12 @@ class Rectangle:
     def is_square(self):
         return True if self.length==self.height else False
     
-        
+ # Create a rectangle object
+rectangle = Rectangle()
+
+# Get the area of the rectangle
+print(f"Area of the rectangle: {rectangle.area()}")
+
+# Check if the rectangle is a square
+print(f"Is the rectangle a square? {rectangle.is_square()}")       
 
