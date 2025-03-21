@@ -1,3 +1,5 @@
+# Write a program that has an abstract class Polygon. Derive two classes Rectangle and Triamgle from Polygon and write methods to get the details of their dimensions and hence calculate the area.
+
 from abc import ABC, abstractmethod
 class Polygon(ABC):
     @abstractmethod
