@@ -1,5 +1,5 @@
 class Vehicle:
-    def __init__(self,seating_capacity):
+    def __init__(self,seating_capacity=50):
         self.seating_capacity=seating_capacity
     def fare(self):
         return self.seating_capacity*100
